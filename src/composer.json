@@ -1,0 +1,15 @@
+{
+  "name": "harby/jwt",
+  "authors": [
+    {
+      "name": "Harby",
+      "email": "anwardiharby@gmail.com"
+    }
+  ],
+  "require": {
+    "vlucas/phpdotenv": "^5.2",
+    "firebase/php-jwt": "^5.2",
+    "php-amqplib/php-amqplib": ">=3.4",
+    "phpmailer/phpmailer": "^6.7"
+  }
+}
