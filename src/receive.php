@@ -23,11 +23,5 @@ $callback = function ($msg) {
       $channel->wait();
   }
 
-  $response = array(
-    'status' => 1,
-    'message' => 'Listener Started...'
- );
- header('Content-Type: application/json');
- echo json_encode($response);
 
 ?>
